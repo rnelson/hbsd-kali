@@ -4,6 +4,8 @@ After watching [SSSilverLink](https://www.twitch.tv/sssilverlink) go through a b
 
 ## Usage
 
+Tested against HardenedBSD 14.1-STABLE-HBSD.
+
 ```shell
 $ fetch -o pkg.txt https://github.com/rnelson/hbsd-kali/blob/main/pkg.txt
 $ fetch -o hbsd-kali.sh https://github.com/rnelson/hbsd-kali/blob/main/setup.sh

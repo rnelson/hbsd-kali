@@ -54,4 +54,4 @@ trufflehog
 whatweb
 wireshark
 yara
-yersinia-gt
+yersinia-gtk

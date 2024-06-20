@@ -44,6 +44,8 @@ py39-wfuzz
 py39-yara
 reaver
 rkhunter
+rubygem-mini_portile2
+rubygem-sinatra2
 socat
 steghide
 subfinder
@@ -52,4 +54,4 @@ trufflehog
 whatweb
 wireshark
 yara
-yersinia-gtk
+yersinia-gt

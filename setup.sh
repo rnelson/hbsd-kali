@@ -14,6 +14,9 @@ echo 'security_rkhunter_check_enable="YES"' >> /etc/periodic/daily/998.rkhunter
 echo 'security_rkhunter_check_period="daily"' >> /etc/periodic/daily/998.rkhunter
 echo 'security_rkhunter_check_flags="--checkall --nocolors --skip-keypress' >> /etc/periodic/daily/998.rkhunter
 
+echo "Installing Metasploit dependencies"
+cd /usr/local/share/metasploit && bundle update && bundle install
+
 echo "Updating arpwatch's ethercodes.dat"
 /usr/local/arpwatch/update-ethercodes
 
